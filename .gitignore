@@ -1,0 +1,55 @@
+# Byte-compiled files
+*.pyc
+*.pyo
+__pycache__/
+
+# Django specific
+*.log
+*.pot
+*.py[cod]
+*.sqlite3
+db.sqlite3
+*.env
+.env
+
+# Media and static files
+/media/
+/staticfiles/
+/static/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Virtual environment
+venv/
+ENV/
+env/
+__pycache__/
+
+# IDE specific files
+.vscode/
+.idea/
+
+# Node modules (if applicable for frontend assets)
+node_modules/
+
+# Coverage reports
+htmlcov/
+*.cover
+.coverage
+.coverage.*
+
+# Test logs
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.tox/
+*.log
+
+# Sentry
+*.key
+
+# Local settings
+local_settings.py
